@@ -1,12 +1,12 @@
 # CLGO Token
 
-## 개요
+## Summary
 
 SYMBOL: CLGO
-ISSUE: 10억
+ISSUE: 1 billion
 DIGIT: 18
 
-## 분배
+## Distribution
 
 1. Investor: 5%
 2. Treasury: 15%
@@ -17,7 +17,7 @@ DIGIT: 18
 7. Marketing: 15%
 8. Liquidity: 5%
 
-## 배포 비용 (!네트워크 상황에 따라 유동적)
+## Cost of distribution (!Flexible based on network conditions)
 
 ### CLGO
 
