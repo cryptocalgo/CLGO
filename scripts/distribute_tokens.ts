@@ -53,10 +53,10 @@ async function main() {
 
   if (sum !== totalAmountToDistribute) {
     console.log(
-      `컨트랙트 잔고: ${totalAmountToDistribute}, 설정하려는 금액: ${sum}`
+      `contract balance: ${totalAmountToDistribute}, amount to be set: ${sum}`
     );
     console.error(
-      "컨트랙트의 잔고와, 설정하려는 자금이 다릅니다. 무시하려면 이 코드를 주석처리하세요."
+      "The contract balance and the amount to be set are different. To ignore, comment out this code."
     );
     return;
   }
