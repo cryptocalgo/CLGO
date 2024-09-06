@@ -1,6 +1,6 @@
 import { ethers } from "hardhat";
 
-// TODO: Check 주소, 락 시간
+// TODO: Check address, lock time
 const clgoAddress = "0x6F7E8CE7Db573613f4422B71dA2071869A48c5De"; // mainnet
 const vestAddress = "0xbb49369bAbF6634C9d522cBdCcad369b8E696486"; // mainnet
 const vestingDuration = 60 * 60 * 24 * 30 * 6; // 6 months
@@ -16,7 +16,7 @@ async function main() {
   const CLGO = await ethers.getContractAt("CLGO", clgoAddress, admin);
   const TokenVesting = await ethers.getContractAt("TokenVesting", vestAddress);
 
-  // TODO: 총 설정 금액 확인
+  // TODO: check total setting amount
   const totalAmountToDistribute = ethers.parseEther("30000");
 
   const balanceBefore = await CLGO.balanceOf(TokenVesting.target);
